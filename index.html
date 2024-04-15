@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <label for="grossIncome"
+        >Enter gross annual income
+        <span
+          class="question-mark"
+          title="Gross annual income is your total salary in a year before any deductions"
+        ></span>
+        <div class="tooltip">
+          Gross annual income is your total salary in a year before any
+          deductions
+        </div></label
+      >
+      <div class="input-wrapper">
+        <input
+          type="text"
+          id="grossIncome"
+          class="number-input"
+          placeholder="Enter gross annual income"
+        />
+        <span class="error-icon" title="Please enter numbers only">!</span>
+        <div class="tooltip">Error message</div>
+      </div>
+      <label for="extraIncome"
+        >Enter extra income
+        <span
+          class="question-mark"
+          title="Extra income includes any additional earnings beyond your regular salary"
+        ></span>
+        <div class="tooltip">
+          Extra income includes any additional earnings beyond your regular
+          salary
+        </div></label
+      >
+      <div class="input-wrapper">
+        <input
+          type="text"
+          id="extraIncome"
+          class="number-input"
+          placeholder="Enter extra income from other sources"
+        />
+        <span class="error-icon" title="Please enter numbers only">!</span>
+        <div class="tooltip">Error message</div>
+      </div>
+      <label for="ageGroup"
+        >Enter age group
+        <span
+          class="question-mark"
+          title="Age group determines the applicable tax rate"
+        ></span>
+        <div class="tooltip">
+          Age group determines the applicable tax rate
+        </div></label
+      >
+      <div class="input-wrapper">
+        <select id="ageGroup" class="number-input">
+          <option value="">Select age group</option>
+          <option value="<40">&lt; 40</option>
+          <option value="40-59">&ge; 40 &amp; &lt; 60</option>
+          <option value="≥60">&ge; 60</option>
+        </select>
+
+        <span class="error-icon" title="Please enter numbers only">!</span>
+        <div class="tooltip">Error message</div>
+      </div>
+
+      <label for="deductions"
+        >Enter total applicable deductions
+        <span
+          class="question-mark"
+          title="Total applicable deductions include any deductions eligible for tax benefits"
+        ></span>
+        <div class="tooltip">
+          Total applicable deductions include any deductions eligible for tax
+          benefits
+        </div></label
+      >
+      <div class="input-wrapper">
+        <input
+          type="text"
+          id="deductions"
+          class="number-input"
+          placeholder="Add total applicable deductions"
+        />
+
+        <span class="error-icon" title="Please enter numbers only">!</span>
+        <div class="tooltip">Error message</div>
+      </div>
+      <button onclick="calculateTax()">Submit</button>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h2>Your over all income will be</h2>
+        <p id="taxResult"></p>
+        <p>after tax deductions</p>
+        <button class="close btn">Close</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
