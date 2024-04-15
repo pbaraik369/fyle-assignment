@@ -13,14 +13,11 @@ on your local machine then just one index.html file.
 ![1](https://github.com/pbaraik369/fyle-assignment/assets/101423423/bcbc1fbe-dccb-4524-9cdc-ab5f8e5d2d93)
 
 test case : 
-![Screenshot (76)](https://github.com/pbaraik369/fyle-assignment/assets/101423423/f317e388-a3e8-4dc1-9845-cd055668030f)
 
-![Screenshot (77)](https://github.com/pbaraik369/fyle-assignment/assets/101423423/bb5fd11d-c31a-4326-991f-09cfc655a616)
+![2](https://github.com/pbaraik369/fyle-assignment/assets/101423423/c1718f8b-2b20-44f7-8235-717b1bff1ad5)
 
-![Screenshot (78)](https://github.com/pbaraik369/fyle-assignment/assets/101423423/21e23adc-e2ad-459a-af15-1b3441390075)
+![3](https://github.com/pbaraik369/fyle-assignment/assets/101423423/ceb6a707-1efb-4adc-ad81-0813f4a9b424)
 
-![Screenshot (79)](https://github.com/pbaraik369/fyle-assignment/assets/101423423/04658fff-c574-4bbe-81ad-cc8fd3864f17)
+![4](https://github.com/pbaraik369/fyle-assignment/assets/101423423/ae27838d-5616-4b22-a088-4282753249e3)
 
-![Screenshot (80)](https://github.com/pbaraik369/fyle-assignment/assets/101423423/2e145242-be99-44a9-bf6c-0a09e1bf277f)
-
-
+![5](https://github.com/pbaraik369/fyle-assignment/assets/101423423/993fb7b0-1e2f-41d4-b7a9-723856e61dde)
